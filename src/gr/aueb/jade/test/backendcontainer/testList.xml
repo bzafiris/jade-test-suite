@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Bill (Bill) -->
+<!-- 
+ Relative reference to the DTD file does not work when the test suite is in a jar file
+<!DOCTYPE TestsList SYSTEM "../common/xml/listTests.dtd" [
+	<!ENTITY % inline "#PCDATA|em|br|UL|LI|b">
+	]>
+-->
+<TestsList>
+	<Test name="Agent names Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.backendcontainer.BackendContainerTest</TestClassName>
+		<!-- 
+ 		<Argument key="agentNum" value="100">Number of agents in each platform</Argument>
+ 		<Argument key="NumOfMigratingAgents" value="30">Number of agents in each platform</Argument>
+ 		<Argument key="MigrationRate" value="0.003276">Number of agents in each platform</Argument>
+ 		 -->
+		<WhatTest>Tests BackendContainer class</WhatTest>
+		<HowWorkTest></HowWorkTest>
+		<WhenTestPass></WhenTestPass>
+	</Test>
+	
+	<Test name="Handle response Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.backendcontainer.BackendContainerTest2</TestClassName>
+		
+		<WhatTest>Tests BackendContainer class 2</WhatTest>
+		<HowWorkTest></HowWorkTest>
+		<WhenTestPass></WhenTestPass>
+	</Test>
+</TestsList>

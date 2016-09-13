@@ -1,0 +1,35 @@
+# Configuration of Container 0
+# container attached to an existing platform (main container) 
+#container=true
+
+# container name
+#container-name=SplitContainer-0
+
+# host that the mediator (main) container is running
+host=localhost
+
+# port that the mediator container is running
+port=2099
+
+# show the rma agent
+# ShowGUI=false
+
+max-disconnection-time=5000
+
+fe-services=gr.aueb.jade.test.service.TestServiceFE
+be-required-services=gr.aueb.jade.test.service.TestService;jade.core.event.NotificationService
+
+# agents that should be launched
+agents=rma2:jade.tools.rma.rma;serviceCaller:gr.aueb.jade.test.agent.ServiceCallerFE
+
+mediator-class=jade.imtp.leap.sms.SMSBEDispatcher
+
+msisdn=mymsisdn
+
+#Useful but not currently used parameters
+
+#jade_imtp_leap_nio_BEManagementService_protocol=JICPPeer
+
+#icps=jade.imtp.leap.nio.NIOJICPPeer
+
+#proto=http

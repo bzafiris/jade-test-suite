@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Bill (Bill) -->
+<!-- 
+ Relative reference to the DTD file does not work when the test suite is in a jar file
+<!DOCTYPE TestsList SYSTEM "../common/xml/listTests.dtd" [
+	<!ENTITY % inline "#PCDATA|em|br|UL|LI|b">
+	]>
+-->
+<TestsList>
+	<Test name="Rma Clone Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.rma.AfterCloneRmaTest</TestClassName>
+		
+		<WhatTest>Tests Rma agent's afterClone functionality</WhatTest>
+		<HowWorkTest></HowWorkTest>
+		<WhenTestPass></WhenTestPass>
+	</Test>
+	
+	<Test name="Rma Move Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.rma.AfterMoveRmaTest</TestClassName>
+		
+		<WhatTest>Tests Rma agent's afterMove functionality</WhatTest>
+		<HowWorkTest></HowWorkTest>
+		<WhenTestPass></WhenTestPass>
+	</Test>
+	
+</TestsList>

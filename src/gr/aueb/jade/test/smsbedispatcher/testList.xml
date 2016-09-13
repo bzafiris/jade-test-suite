@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Bill (Bill) -->
+<!-- 
+ Relative reference to the DTD file does not work when the test suite is in a jar file
+<!DOCTYPE TestsList SYSTEM "../common/xml/listTests.dtd" [
+	<!ENTITY % inline "#PCDATA|em|br|UL|LI|b">
+	]>
+-->
+<TestsList>
+	<Test name="SMSBEDispatcher.init Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.smsbedispatcher.SMSBEDispatcherTest</TestClassName>
+		
+		<WhatTest>Tests correct initialization of SMSBEDispatcher class</WhatTest>
+		<HowWorkTest>SMSBEDispatcher communicates drop down connection events to the FrontEnd container through an SMS out of band channel.
+		The current implementation sends the sms message to a socket opened by a helper phone (Front end container host) connected on port 1100 </HowWorkTest>
+		<WhenTestPass>An invocation of sendSmsMessage from the backend must have the message dispatched to a socket on port 1100 on FrontEnd</WhenTestPass>
+	</Test>
+	
+	<Test name="SMSBEDispatcher.handleDropDown Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.smsbedispatcher.SMSBEDispatcherHandleDropDownTest</TestClassName>
+		
+		<WhatTest>Tests handleDropDown SMSBEDispatcher class</WhatTest>
+		<HowWorkTest>SMSBEDispatcher communicates drop down connection events to the FrontEnd container through an SMS out of band channel.
+		The current implementation sends the sms message to a socket opened by a helper phone (Front end container host) connected on port 1100 </HowWorkTest>
+		<WhenTestPass>An invocation of sendSmsMessage from the backend must have the message dispatched to a socket on port 1100 on FrontEnd</WhenTestPass>
+	</Test>
+	
+</TestsList>

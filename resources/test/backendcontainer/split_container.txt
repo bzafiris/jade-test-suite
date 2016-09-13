@@ -1,0 +1,27 @@
+# Configuration of Container 0
+# container attached to an existing platform (main container) 
+container=true
+
+# container name
+container-name=SplitContainer-0
+
+# host that the mediator (main) container is running
+host=bzafiris-PC
+
+# port that the mediator container is running
+port=1099
+
+# show the rma agent
+ShowGUI=false
+
+# host name where this container is going to run
+#local-host=bzafiris-PC
+
+# port where this container can be contacted, defaults to 1099
+#local-port=1124
+
+# port for the http mtp service
+#HTTPPort=7779
+
+# agents that should be launched
+agents=rma2:jade.tools.rma.rma

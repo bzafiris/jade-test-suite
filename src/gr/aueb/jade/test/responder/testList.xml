@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Bill (Bill) -->
+<!-- Relative reference to the DTD file does not work when the test suite 
+	is in a jar file <!DOCTYPE TestsList SYSTEM "../common/xml/listTests.dtd" 
+	[ <!ENTITY % inline "#PCDATA|em|br|UL|LI|b"> ]> -->
+<TestsList>
+
+	<Test name="SSResponder Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.responder.SSResponderTest
+		</TestClassName>
+
+		<WhatTest>Tests SSResponder class</WhatTest>
+		<HowWorkTest></HowWorkTest>
+		<WhenTestPass></WhenTestPass>
+	</Test>
+	
+	<Test name="AchieveREResponder Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.responder.AchieveREResponderTest
+		</TestClassName>
+
+		<WhatTest>Tests AchieveREResponder class</WhatTest>
+		<HowWorkTest></HowWorkTest>
+		<WhenTestPass></WhenTestPass>
+	</Test>
+
+	<Test name="Responder Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.responder.ResponderTest
+		</TestClassName>
+
+		<WhatTest>Tests TwoPhResponder class</WhatTest>
+		<HowWorkTest></HowWorkTest>
+		<WhenTestPass></WhenTestPass>
+	</Test>
+
+
+</TestsList>

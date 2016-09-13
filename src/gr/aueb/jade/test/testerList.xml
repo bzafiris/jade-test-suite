@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+	<!DOCTYPE TesterList [
+		<!ELEMENT TesterList (Tester)*>
+		<!ELEMENT Tester (ClassName, Description, TestsListRif)>
+		<!ATTLIST Tester 
+		    name     CDATA    #REQUIRED
+		    skip     CDATA    #REQUIRED
+		>
+		<!ELEMENT ClassName (#PCDATA)>
+		<!ELEMENT Description (#PCDATA)>
+		<!ELEMENT TestsListRif (#PCDATA)>
+	]>
+<TesterList>
+
+	<Tester name="Rma agent test" skip="false">
+		<ClassName>gr.aueb.jade.test.rma.TesterAgent</ClassName>
+		<Description> Testing the rma agent</Description>
+		<TestsListRif>gr/aueb/jade/test/rma/testList.xml</TestsListRif>
+	</Tester>
+
+	<Tester name="Backend Container test" skip="false">
+		<ClassName>gr.aueb.jade.test.backendcontainer.TesterAgent</ClassName>
+		<Description> Tests some backend container behaviour. </Description>
+		<TestsListRif>gr/aueb/jade/test/backendcontainer/testList.xml</TestsListRif>
+	</Tester>
+
+
+	<Tester name="Composite behaviour block/restart" skip="false">
+		<ClassName>gr.aueb.jade.test.composite.TesterAgent</ClassName>
+		<Description>Tests the block/restart of composite behaviours</Description>
+		<TestsListRif>gr/aueb/jade/test/composite/testList.xml</TestsListRif>
+	</Tester>
+
+	<Tester name="DFMemKB insert test" skip="false">
+		<ClassName>gr.aueb.jade.test.memkb.TesterAgent</ClassName>
+		<Description> Tests the DFMemKB class</Description>
+		<TestsListRif>gr/aueb/jade/test/memkb/testList.xml</TestsListRif>
+	</Tester>
+
+
+	<Tester name="Responder test" skip="false">
+		<ClassName>gr.aueb.jade.test.responder.TesterAgent</ClassName>
+		<Description> Testing the AchieveREResponder</Description>
+		<TestsListRif>gr/aueb/jade/test/responder/testList.xml</TestsListRif>
+	</Tester>
+
+	<Tester name="Initiator reinit test" skip="false">
+		<ClassName>gr.aueb.jade.test.initiator.TesterAgent</ClassName>
+		<Description> Testing the *Initiator.reinit() behaviour</Description>
+		<TestsListRif>gr/aueb/jade/test/initiator/testList.xml</TestsListRif>
+	</Tester>
+
+
+
+</TesterList>

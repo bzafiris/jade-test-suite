@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Bill (Bill) -->
+<!-- Relative reference to the DTD file does not work when the test suite 
+	is in a jar file <!DOCTYPE TestsList SYSTEM "../common/xml/listTests.dtd" 
+	[ <!ENTITY % inline "#PCDATA|em|br|UL|LI|b"> ]> -->
+<TestsList>
+	
+	<Test name="AchieveREInitiator reinit Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.initiator.AchieveREInitiatorTest
+		</TestClassName>
+
+		<WhatTest>Tests AchieveREInitiator class</WhatTest>
+		<HowWorkTest></HowWorkTest>
+		<WhenTestPass></WhenTestPass>
+	</Test>
+	
+	<Test name="ContractNetInitiator reinit Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.initiator.ContractNetInitiatorTest
+		</TestClassName>
+
+		<WhatTest>Tests ContractNetInitiator class</WhatTest>
+		<HowWorkTest></HowWorkTest>
+		<WhenTestPass></WhenTestPass>
+	</Test>
+
+
+
+	<Test name="SubscriptionInitiator reinit Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.initiator.SubscriptionInitiatorTest
+		</TestClassName>
+
+		<WhatTest>Tests SubscriptionInitiator class</WhatTest>
+		<HowWorkTest></HowWorkTest>
+		<WhenTestPass></WhenTestPass>
+	</Test>
+
+
+
+
+</TestsList>

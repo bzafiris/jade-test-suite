@@ -1,0 +1,24 @@
+# Configuration of Container 0
+# container attached to an existing platform (main container) 
+container=true
+
+# container name
+container-name=Container0
+
+# host that the main container is running
+host=localhost
+
+# port that the main container is running
+port=1099
+
+# host name where this container is going to run
+local-host=localhost
+
+# port where this container can be contacted, defaults to 1099
+local-port=1124
+
+# port for the http mtp service
+HTTPPort=7779
+
+# show the rma agent
+ShowGUI=false

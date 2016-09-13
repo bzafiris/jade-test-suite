@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Bill (Bill) -->
+<!-- 
+ Relative reference to the DTD file does not work when the test suite is in a jar file
+<!DOCTYPE TestsList SYSTEM "../common/xml/listTests.dtd" [
+	<!ENTITY % inline "#PCDATA|em|br|UL|LI|b">
+	]>
+-->
+<TestsList>
+	<Test name="Composite behaviour block Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.composite.CompositeBehaviourTest</TestClassName>
+		
+		<WhatTest>Tests CompositeBehaviour class</WhatTest>
+		<HowWorkTest></HowWorkTest>
+		<WhenTestPass></WhenTestPass>
+	</Test>
+	
+	<Test name="Blocked Composite behaviour restart Test" skip="false">
+		<TestClassName>gr.aueb.jade.test.composite.CompositeBehaviourTest2</TestClassName>
+		
+		<WhatTest>Tests blocked CompositeBehaviour restart</WhatTest>
+		<HowWorkTest></HowWorkTest>
+		<WhenTestPass></WhenTestPass>
+	</Test>
+</TestsList>
