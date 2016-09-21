@@ -1,6 +1,6 @@
 # jade-test-suite
 
-A test suite for the [JAVA Agent DEvelopment Framework](http://jade.tilab.com/) implemented for the needs of evaluating a software refactoring method and tool. The test suite is based on the Jade [Test Suite Framework v1.13](http://jade.tilab.com/dl.php?file=testSuiteAddOn-1.13.zip) add-on and operates on [version 4.4.0](http://jade.tilab.com/dl.php?file=JADE-src-4.4.0.zip) of the Jade project. For convenience reasons, the source code of Jade 4.4.0 is provided as part of this project ([folder jade-4.4.0](https://github.com/bzafiris/jade-test-suite/tree/master/jade-4.4.0)). 
+A test suite for [JADE - Java Agent DEvelopment Framework](http://jade.tilab.com/) implemented for the needs of evaluating a software refactoring method and tool. The test suite is based on the Jade [Test Suite Framework v1.13](http://jade.tilab.com/dl.php?file=testSuiteAddOn-1.13.zip) add-on and operates on [version 4.4.0](http://jade.tilab.com/dl.php?file=JADE-src-4.4.0.zip) of the Jade project. For convenience reasons, the source code of Jade 4.4.0 is provided as part of this project ([folder jade-4.4.0](https://github.com/bzafiris/jade-test-suite/tree/master/jade-4.4.0)). 
 
 The tests can be executed through the following [`ant`](http://ant.apache.org/) tasks:
 
